@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(17, 17, 17);
+    color: aliceblue;
+}
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+.content {
+    font-size: 1.2rem;
+    margin: 50px;
+    border-color: rgb(134, 22, 22);
+    border-width: 10px;
+    border-style: double;
+    padding-inline: 50px;
+}
+
+
+.navItem {
+    border-width: 5px;
+    border-color: red;
+    border-style: groove;
+    padding-inline: 10px;
+}
+
+.navItem:hover {
+    background-color: rgba(128, 14, 14, 0.499);
+}
