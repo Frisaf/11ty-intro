@@ -10,6 +10,11 @@ footer {
 
 .content a {
     color: rgb(184, 231, 255);
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
 }
 
 a {
@@ -58,13 +63,27 @@ h1 a{
     border-style: groove;
     border-color: brown;
     border-width: 10px;
+    text-decoration: none;
 }
 
-.timeText {
+time {
     font-size: 0.9rem;
     color: lightgrey;
+
+    p {
+        margin: 0px;
+    }
 }
 
 .postItem {
     margin-bottom: 1rem;
+}
+
+.siteTitle {
+    width: fit-content;
+    margin-inline: auto;
+}
+
+.summary {
+    margin-bottom: 0px;
 }

@@ -1,20 +1,20 @@
 ---
 layout: layout.html
 ---
-# Startsida
+## Startsida
 <p>Kallt ovälkommen, och ovänliga hälsningar!</p>
 
-## Alla inlägg
+### Alla inlägg
 <ul>
-    {% for post in collections.posts %}
+    {%- for post in collections.posts -%}
         <li class=postItem>
-            <h3><a href="{{ post.url }}"> {{ post.data.title | capitalize }}</a></h3>
-            {% if post.data.summary %}
-                <p><em>{{ post.data.summary }}</em></p>
-            {% else %}
-                <p><em>Utan sammanfattning</em></p>
-            {% endif %}
-            <time class="timeText">{% formatDate post.date %}</time>
+            <h4><a href="{{ post.url }}"> {{ post.data.title | capitalize }}</a></h4>
+            {%- if post.data.summary -%}
+                <p class="summary"><em>{{ post.data.summary }}</em></p>
+            {%- else -%}
+                <p class="summary"><em>Utan sammanfattning</em></p>
+            {%- endif -%}
+            <time>{% formatDate post.date %}</time>
         </li>
-    {% endfor %}
+    {%- endfor -%}
 </ul>
