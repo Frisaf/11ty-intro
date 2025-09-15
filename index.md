@@ -1,5 +1,6 @@
 ---
 layout: layout.html
+title: "Home"
 ---
 ## Startsida
 <p>Kallt ovälkommen, och ovänliga hälsningar!</p>
