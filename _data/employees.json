@@ -1,0 +1,18 @@
+{
+    "items": [
+        {
+            "name": "Josh Johnson",
+            "position": "Big Brother",
+            "email": "bigbro@hotmail.com",
+            "img": "UwUdubbelhaka.png",
+            "alt": "UwU dubbelhaka"
+        },
+        {
+            "name": "John Joshson",
+            "position": "Slave",
+            "email": "peasant@hotmail.com",
+            "img": "UwUdubbelhaka.png",
+            "alt": "UwU dubbelhaka"
+        }
+    ]
+}
